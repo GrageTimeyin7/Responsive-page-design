@@ -1,0 +1,1201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+.Logo{
+    width: 40px;
+    height: 40px;
+   
+    
+}
+
+.Logo img{
+    width: 100%;
+
+}
+
+.profilePic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+   
+    
+    
+}
+
+.profilePic img{
+    width: 100%;
+    
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    
+}
+
+.containerLogoAndHmenu{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    column-gap: 1.5rem;
+}
+
+.Hmenu{
+    width: fit-content;
+    height: auto;
+    display: none;
+    flex-direction: row;
+}
+
+.Hmenu i{
+    font-size: 1.5rem;
+    
+}
+
+.headerLinks{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2.5rem;
+}
+
+
+
+.Links{
+    width: fit-content;
+    height: auto;
+}
+.Links p{
+    font-weight: 500;
+    font-size: 0.875rem;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+.notificationAndProfilePic{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.notification{
+    width: fit-content;
+    height: auto;
+}
+
+.notification i{
+    font-size: 1.5rem;
+    color: #7d7d7d;
+}
+.notification i:hover{
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+}
+
+
+.mobileheaderLinks{
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.5rem;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2rem;
+    z-index: 100;
+    border: 1px solid #d4d4d4;
+    background-color: white;
+
+}
+
+.cancel{
+    width: fit-content;
+    height: auto;
+    display: flex;
+}
+
+
+
+
+
+
+/* SECOND SECTION */
+
+.secondSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 1px solid #e6e6e6;
+}
+
+.leftSection{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1.5rem;
+}
+
+
+
+
+
+.RightSection{
+    background-color: #4F46E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding:  0.5rem 1rem;
+    border-radius: 0.5rem;
+    column-gap: 0.5rem;
+    cursor: pointer;
+}
+
+.plusIcon{
+    width: fit-content;
+    height: auto;
+}
+.plusIcon i{
+    color: white;
+    font-size: 0.8rem;
+}
+.newInvoice{
+    width: fit-content;
+    height: auto;
+}
+.newInvoice p{
+    color: white;
+    font-size: 0.875rem;
+    text-wrap: nowrap;
+}
+.purple p{
+    color: #4F46E5;
+}
+.purple{
+    border-left: 1px solid #e6e6e6;
+    padding-left: 1rem;
+}
+
+/* THIRD SECTION */
+
+.thirdSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    
+   
+   
+}
+
+.revenue{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    row-gap: 1rem;
+    border-right: 1px solid #e6e6e6;
+}
+
+.top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rev{
+    width: fit-content;
+    height: auto;
+}
+
+.rev p{
+    font-size: 0.875rem;
+    color: #7d7d7d;
+    text-wrap: nowrap;
+}
+
+.number{
+    width: fit-content;
+    height: auto;
+}
+.number p{
+    font-size: 0.8rem;
+}
+
+.bottom{
+    width: fit-content;
+    height: auto;
+}
+
+.bottom h1{
+    font-weight: 500;
+    color: #1c1c1c;
+    text-wrap: nowrap;
+}
+
+.red{
+    color: red;
+}
+
+/* Fourth Section */
+
+.fourthSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid #e6e6e6;
+    width: 100%;
+    height: auto;
+}
+
+.recentActivity{
+width: fit-content;
+height: auto;
+}
+
+.recentActivity p{
+    font-weight: 500;
+}
+
+
+/* Fifth Setion */
+
+.fifthSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* padding: 0.5rem 2rem; */
+}
+
+.today{
+    width: 100%;
+    height: auto;
+    background-color: #F9FAFB;
+    padding: 1rem 2rem;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+
+
+
+}
+.update{
+    border-bottom: none;
+    color: #B90000;
+}
+
+.today p{
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.todayBottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+   
+}
+
+.paid{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid #e6e6e6 ;
+    padding: 1rem 2rem;
+    
+    
+  
+}
+
+.remove{
+    border: none;
+}
+
+.one{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 0.75rem;
+    
+    
+}
+
+.icon{
+    width: fit-content;
+    height: auto;
+}
+
+.icon i{
+    color: #7d7d7d;
+}
+
+.paidSection{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.5rem;
+}
+
+.priceStatus{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 0.75rem;
+}
+
+.price{
+    width: fit-content;
+    height: auto;
+}
+.price p{
+    color: #1c1c1c;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.status{
+    width: fit-content;
+    height: auto;
+    background-color: #F0FDF4;
+    border: 1px solid #C3EBD2;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.status p{
+    color: #005200;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.tax{
+    width: fit-content;
+    height: auto;
+}
+.tax p{
+    color: #7d7d7d;
+    font-size: 0.75rem;
+}
+
+.two{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: start;
+    row-gap: 1rem;
+    
+   
+    
+}
+
+.twofix{
+    padding-right: 5rem;
+    
+}
+.threefix{
+    padding-right: 3.5rem;
+}
+
+.fourfix{
+    padding-right: 0.80rem;
+}
+
+.reform{
+    width: fit-content;
+    height: auto;
+}
+
+.reform p{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.websiteRedesign{
+    width: fit-content;
+    height: auto;
+}
+
+.websiteRedesign p{
+    color: #7d7d7d;
+    font-size: 0.75rem;
+}
+
+.three{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.view{
+    width: fit-content;
+    height: auto;
+}
+.view p{
+    color: #4F46E5;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+.invoice{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 0.25rem;
+}
+.inv{
+    width: fit-content;
+    height: auto;
+}
+.inv p{
+    font-size: 0.75rem;
+    color: #7d7d7d;
+}
+.invno{
+    width: fit-content;
+    height: auto;
+}
+.invno p{
+    font-size: 0.75rem;
+    color: #7d7d7d;
+}
+
+.redd{
+    border: 1px solid #FADDDD;
+    background-color: #FEF2F2;
+}
+.redd p{
+    color: #B90000;
+}
+
+.grey{
+    border: 1px solid #EBEDEE;
+    background-color: #F9FAFB;
+}
+.grey p{
+    color: black;
+}
+
+/* Sixth Section */
+ 
+
+.sixthSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left:  2rem;
+    padding-right:  2rem;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+    row-gap: 1rem;
+    
+}
+
+.recentClients{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+.clients{
+    width: fit-content;
+    height: auto;
+}
+.clients p{
+    font-weight: 500;
+    
+    
+}
+
+.viewall{
+    width: fit-content;
+    height: auto;
+}
+.viewall p{
+    color: #4F46E5;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.card{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border: 1px solid #d4d4d4;
+    border-radius: 0.5rem;
+    
+}
+
+.uplevel{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 2rem;
+    background-color: #F9FAFB;
+    border-radius: 0.5rem 0.5rem 0 0;
+    
+}
+
+.leftuplevel{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.tuplelogocontainer{
+    width: 48px;
+    height: 48px;
+    border: 1px solid #d4d4d4;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+
+.tuplelogo{
+    width: 100%;
+    height: auto;
+   
+    
+    
+}
+.tuplelogo img{
+    width: 100%;
+}
+
+.tupletext{
+    width: fit-content;
+    height: auto;
+}
+.tupletext p{
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.rightuplevel{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+   
+   
+}
+
+.menuicon{
+    width: fit-content;
+    height: auto;
+}
+
+.menuicon i{
+    color: #7d7d7d;
+}
+.menuicon i:hover{
+    color: #464646;
+    cursor: pointer;
+}
+
+.menuiconitems{
+    width: fit-content;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border: 1px solid #d4d4d4;
+    row-gap: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    position: absolute;
+    right: 1px;
+    top: 16px;
+    background-color: white;
+    z-index: 100;
+    
+    
+    
+    
+}
+.views{
+    width: 100%;
+    height: auto;
+   
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0.5rem 1rem;
+    background-color: white;
+}
+.views:hover{
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+.view p{
+    font-size: 0.875rem;
+}
+.edit{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    
+}
+.edit:hover{
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+.edit p{
+    font-size: 0.875rem;
+}
+
+
+.downlevel{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0 2rem;
+    
+}
+
+.lastinvoice{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+   
+    
+}
+.last{
+    width: fit-content;
+    height: auto;
+}
+.last p{
+    font-size: 0.875rem;
+    color: #7d7d7d;
+    text-wrap: nowrap;
+}
+.lastdate{
+    width: fit-content;
+    height: auto;
+}
+.lastdate p{
+    font-size: 0.875rem;
+    text-wrap: nowrap;
+}
+.amountoverdue{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-top: 1px solid #d4d4d4 ;
+    
+    
+}
+.amounto{
+    width: fit-content;
+    height: auto;
+}
+.amounto p{
+    font-size: 0.875rem;
+    color: #7d7d7d;
+}
+.moneyoverdue{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0.5rem;
+    
+}
+.money{
+    width: fit-content;
+    height: auto;
+}
+.money p{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width:1386px){
+
+
+    .cards{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        row-gap: 1.5rem;
+        
+        
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        border: 1px solid #d4d4d4;
+        border-radius: 0.5rem;
+        
+    }
+
+    .thirdSection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+       
+       
+    }
+    
+    .revenue{
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        row-gap: 1rem;
+        border-right: 1px solid #e6e6e6;
+        /* border-bottom: 1px solid #e6e6e6; */
+        
+    }
+
+    .fourthSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 1.5rem;
+        
+        width: 100%;
+        height: auto;
+    }
+    
+
+
+    .today{
+        width: 100%;
+        height: auto;
+        background-color: #F9FAFB;
+        padding: 1rem 4rem;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+    
+    }
+
+    .paid{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        border-bottom: 1px solid #e6e6e6 ;
+        padding: 1rem 4rem;
+        
+        
+      
+    }
+    
+    .sixthSection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 2rem 4rem;
+        row-gap: 2.5rem;
+    }
+
+    .third{
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .fourth{
+        border-bottom: 1px solid #e6e6e6;
+    }
+}
+
+@media screen and (max-width:1120px){
+
+    .headerLinks{
+        width: fit-content;
+        height: auto;
+        display: none;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        column-gap: 2.5rem;
+    }
+
+    .Hmenu{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .revenue{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        row-gap: 1rem;
+        border-right: 1px solid #e6e6e6;
+        /* border-bottom: 1px solid #e6e6e6; */
+        
+    }
+
+    .two{
+        width: fit-content;
+        height: auto;
+        display: none;
+        flex-direction: column;
+        justify-content: start;
+        align-self: start;
+        row-gap: 1rem;
+        
+       
+        
+    }
+
+    .fifth{
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+
+
+}
+
+@media screen and (max-width:580px){
+    .fourthSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 1.5rem;
+        
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .today{
+        width: 100%;
+        height: auto;
+        background-color: #F9FAFB;
+        padding: 1rem 2rem;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+    
+    }
+
+    .paid{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        border-bottom: 1px solid #e6e6e6 ;
+        padding: 1rem 2rem;
+        
+        
+      
+    }
+
+    .sixthSection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 2rem 2rem;
+        row-gap: 2.5rem;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 627px){
+    .leftSection{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        column-gap: 1.5rem;
+        flex-wrap: wrap;
+        row-gap: 1.5rem;
+        
+      
+        
+    }
+
+    
+
+    .purple{
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1rem;
+        
+    }
+
+    .secondSection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1rem;
+        border: 1px solid #e6e6e6;
+    }
+
+
+    .revenue{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        row-gap: 1rem;
+        border-right: 1px solid #e6e6e6;
+    }
+    
+
+    .sixthSection{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 2rem 1rem;
+        row-gap: 2.5rem;
+    }
+
+
+    .fourthSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 1.5rem;
+        
+        width: 100%;
+        height: auto;
+    }
+
+    .today{
+        width: 100%;
+        height: auto;
+        background-color: #F9FAFB;
+        padding: 1rem 1rem;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+    
+    
+    
+    }
+
+
+    .paid{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        border-bottom: 1px solid #e6e6e6 ;
+        padding: 1rem 1rem;
+        
+        
+      
+    }
+
+}
+
+@media screen and (max-width: 578px){
+    .off{
+        display: none;
+    }
+}
